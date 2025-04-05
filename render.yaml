@@ -1,7 +1,7 @@
 services:
   - type: web
     name: bharat-construction
-    env: java
+    runtime: static
     buildCommand: "./mvnw clean install"
     startCommand: "java -jar target/*.jar"
     envVars:
