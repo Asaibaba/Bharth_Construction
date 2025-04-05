@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bharat Construction – Building Strong, Building Smart</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 30px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            margin: 0 20px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .slideshow {
+            position: relative;
+            width: 100%;
+            height: 500px;
+            overflow: hidden;
+        }
+
+        .slideshow img {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            animation: fade 12s infinite;
+        }
+
+        .slideshow img:nth-child(2) {
+            animation-delay: 4s;
+        }
+
+        .slideshow img:nth-child(3) {
+            animation-delay: 8s;
+        }
+
+        @keyframes fade {
+            0% { opacity: 0; }
+            10% { opacity: 1; }
+            30% { opacity: 1; }
+            40% { opacity: 0; }
+            100% { opacity: 0; }
+        }
+
+        .slideshow-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-align: center;
+            z-index: 2;
+            padding: 30px;
+        }
+
+        .slideshow-text h2 {
+            font-size: 40px;
+            margin: 0 0 15px;
+        }
+
+        .slideshow-text p {
+            font-size: 22px;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+<div class="top-banner">
+  <h1>Bharat Construction – Building Strong, Building Smart</h1>
+  <p>From Blueprint to Reality | Trusted Partner in Infrastructure Development</p>
+</div>
+</header>
+
+<nav>
+    <a href="/">Home</a>
+    <a href="/sectors">Sectors</a>
+    <a href="/services">Services</a>
+    <a href="/projects">Projects</a>
+    <a href="/locations">Locations</a>
+    <a href="/careers">Careers</a>
+    <a href="/contact">Contact</a>
+</nav>
+
+<!-- Slideshow with Text Overlay -->
+<div class="slideshow">
+    <div class="slideshow-text">
+        <h2>Welcome to Bharat Construction</h2>
+        <p>Your trusted partner in infrastructure development.</p>
+    </div>
+    <img src="/images/download1.jpg" alt="Building site">
+    <img src="/images/download2.jpg" alt="Construction work">
+    <img src="/images/download3.jpg" alt="Modern building">
+    <img src="/images/download4.jpg" alt="super work">
+    <img src="/images/download5.jpg" alt="excelent building">
+</div>
+
+</body>
+</html>
